@@ -1,0 +1,58 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #EDEEEB;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-self: center;
+    align-self: center;
+    background-color: #CCC7BF;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#output {
+    background-color: #61602e;
+    color: white;
+    text-align: left;
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+button {
+    min-width: 92px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    padding: 0;
+    margin: 8px;
+}
+
+footer, header {
+    padding: 18px;
+    background-color: #31393C;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    font-size: 32px;
+}
+
+footer {
+    font-size: 18px;
+    margin-top: auto;
+}
