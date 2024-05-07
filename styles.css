@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    border-radius: 4px;
     justify-self: center;
     align-self: center;
     background-color: #CCC7BF;
@@ -26,9 +27,14 @@ body {
 #output {
     background-color: #61602e;
     color: white;
-    text-align: left;
+    text-align: right;
     padding: 0 16px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
+    border-radius: 4px;
+}
+
+#btncontainer {
+    text-align: center;
 }
 
 button {
@@ -38,6 +44,7 @@ button {
     border: 0;
     padding: 0;
     margin: 8px;
+    font-weight: bold;
 }
 
 footer, header {
@@ -55,4 +62,20 @@ header {
 footer {
     font-size: 18px;
     margin-top: auto;
+}
+.clearbtn {
+    background-color: #f44242;
+}
+
+.equals {
+    background-color: #4285f4;
+    margin-top: 24px;
+}
+
+.equals, .clearbtn {
+    color: white;
+}
+
+.opbtn {
+    font-size: 18px;
 }
